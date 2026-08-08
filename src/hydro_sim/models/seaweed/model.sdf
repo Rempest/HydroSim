@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+<sdf version="1.10">
+
+  <model name="seaweed">
+
+    <static>true</static>
+
+    <link name="seaweed">
+
+<collision name="collision">
+
+  <geometry>
+
+    <box>
+
+      <size>0.4 0.4 1.5</size>
+
+    </box>
+
+  </geometry>
+
+</collision>
+
+<visual name="visual">
+
+  <geometry>
+
+    <mesh>
+
+      <uri>model://seaweed/meshes/seaweedList.obj</uri>
+
+      <scale>1 1 1</scale>
+
+    </mesh>
+
+  </geometry>
+
+</visual>
+
+</link>
+
+</model>
+
+</sdf>

@@ -89,11 +89,12 @@ ros2 launch hydro_sim launch_hydro.py
 
 **The environment currently includes:**
 ```
-*- rocky areas*
-*- coral*
-*- sea stars*
-*- seaweed*
-*- seabed*
-*- underwater materials and textures*
+- rocky areas
+- coral
+- sea stars
+- seaweed
+- seabed
+- underwater materials and textures
 ```
 **The world is built using SDF and can be extended with additional models and underwater structures.**
+*(I will be glad about that. :) )*

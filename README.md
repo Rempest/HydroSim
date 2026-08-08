@@ -52,7 +52,6 @@ hydro_sim/
 │   ├── Hydro_sim4.png
 │   └── Hydro_sim5.png
 └── worlds/
-    ├── generated_reef.sdf
     └── hydro.sdf
 ```
 ## Requirements

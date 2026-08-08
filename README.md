@@ -88,12 +88,12 @@ ros2 launch hydro_sim launch_hydro.py
 **The simulation contains a large and simple underwater environment with a 1000 × 1000 m area.**
 
 **The environment currently includes:**
-
+```
 *- rocky areas*
 *- coral*
 *- sea stars*
 *- seaweed*
 *- seabed*
 *- underwater materials and textures*
-
+```
 **The world is built using SDF and can be extended with additional models and underwater structures.**

@@ -5,16 +5,12 @@ Hydro Sim is a simple underwater world created for Gazebo Sim Harmonic, designed
 The project provides a custom underwater environment with rocks, corals, sea stars, seaweed, a seabed and other environmental elements.
 
 ## Screenshots
+<img width="1028" height="911" alt="Hydro_sim1" src="https://github.com/user-attachments/assets/78337da1-3255-4035-9ecb-2eb28adb981a" />
+<img width="1028" height="911" alt="Hydro_sim2" src="https://github.com/user-attachments/assets/2eaa955b-afb6-4449-a1ad-c8976e0cc80f" />
+<img width="1028" height="911" alt="Hydro_sim3" src="https://github.com/user-attachments/assets/444f24e8-706a-4cda-9489-dc1a33c05f18" />
+<img width="1028" height="911" alt="Hydro_sim4" src="https://github.com/user-attachments/assets/fdcafbc7-b8ea-4645-8757-4c46a29e7bff" />
+<img width="1028" height="911" alt="Hydro_sim5" src="https://github.com/user-attachments/assets/6670093f-19b6-4327-a0bf-4f2e23f2743c" />
 
-![Hydro Sim 1](screenshots/Hydro_sim1.png)
-
-![Hydro Sim 2](screenshots/Hydro_sim2.png)
-
-![Hydro Sim 3](screenshots/Hydro_sim3.png)
-
-![Hydro Sim 4](screenshots/Hydro_sim4.png)
-
-![Hydro Sim 5](screenshots/Hydro_sim5.png)
 
 ## Features
 
@@ -66,13 +62,38 @@ hydro_sim/
 · Python 3
 · ros_gz_sim
 
-##Installation
+## Installation
 __1. Clone the repository:__ 
 ```
 git clone https://github.com/Rempest/HydroSim.git
 cd HydroSim
 ```
 
+__2. Source ROS 2 Jazzy:__
+```
+source /opt/ros/jazzy/setup.bash
+```
+__3. Build the workspace:__
+```
+colcon build
+```
+__4. Running__
+```
+ros2 launch hydro_sim launch_hydro.py
+```
+*Gazebo Sim should open and load the underwater environment.*
 
+## World
 
+**The simulation contains a large and simple underwater environment with a 1000 × 1000 m area.**
 
+**The environment currently includes:**
+
+*- rocky areas*
+*- coral*
+*- sea stars*
+*- seaweed*
+*- seabed*
+*- underwater materials and textures*
+
+**The world is built using SDF and can be extended with additional models and underwater structures.**

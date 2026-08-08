@@ -75,6 +75,7 @@ source /opt/ros/jazzy/setup.bash
 __3. Build the workspace:__
 ```
 colcon build
+source install/setup.bash
 ```
 __4. Running__
 ```

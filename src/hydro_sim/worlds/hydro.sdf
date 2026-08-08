@@ -12,12 +12,11 @@
       <real_time_factor>1.0</real_time_factor>
     </physics>
     
- <!-- 
+
 <plugin filename="gz-sim-buoyancy-system" name="gz::sim::systems::Buoyancy">
   <uniform_fluid_density>1000</uniform_fluid_density>
   <enable>rov</enable>
 </plugin> 
--->
 
 
     <!-- ============================= -->
